@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    max-width: 1340px;
+    width: 80%;
+    position: relative;
+}
+.back {
+    background-color: #E16A00;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:20px;
+    left: 0px;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    min-width: 40%;
+    margin-top: 50px;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.td__buttons {
+    display: flex;
+}
+.addbook {
+    display: none;
+}
+.header__buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__button {
+    padding: 20px 50px 20px 50px;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #E16A00;
+    cursor: pointer;
+}
+.header__button[selected] {
+    border-bottom: 2px solid #E16A00;
+    border-top: 2px solid #E16A00;
+}
+.header__button:hover {
+    border-top: 2px solid #E16A00;
+    transition-duration: 0.5s;
+}
+form {
+    max-width: 1340px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.input__line {
+    display: flex;
+    margin: 10px 0;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.input input {
+    padding: 7px 10px;
+    width: 400px;
+    border: 1px solid #000;
+}
+textarea {
+    padding: 7px 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    resize: none;
+}
+input[type="submit"] {
+    width: 300px;
+    padding: 27px 10px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    background-color: #E16A00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.users {
+    display: none;
+}
+.users table {
+    min-width: 30%;
+}
+.users td {
+    width: 200px;
+}
+
+
+.td__button {
+    width: 80px;
+    padding: 5px;
+    background-color: #E16A00;
+    color: #fff;
+    margin: 0 5px;
+    font-weight: 400;
+}
+input[type="submit"].td__button {
+    width: 80px;
+    padding: 5px;
+    background-color: #E16A00;
+    color: #fff;
+    margin: 0 5px;
+    font-weight: 400;
+}

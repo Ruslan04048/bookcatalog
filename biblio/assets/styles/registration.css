@@ -1,0 +1,110 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+body {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+.first {
+    width: 50%;
+    height: 100vh;
+    background-color: #E16A00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.first p {
+    max-width: 490px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 50px 0 40px 0;
+}
+.first span {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.second {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+form {
+    max-width: 450px;
+}
+.second__row {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+label {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.second__row input {
+    padding: 18px;
+    border: 1px solid #BABABA;
+    outline: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.second__row input::placeholder {
+    color: #BABABA;
+    font-weight: 600;
+}
+.second__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second__back {
+    padding: 25px 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #E16A00;
+    color: #E16A00;
+}
+.second__sbm{
+    width: 48%;
+    padding: 27px 10px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    background-color: #E16A00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+form p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+form p a {
+    color: #E16A00;
+}
+input[disabled] {
+    background-color: #BABABA;
+}
+.error {
+    color: red;
+    font-weight: 500;
+}

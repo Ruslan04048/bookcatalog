@@ -1,0 +1,21 @@
+.katalog__sort {
+    display: flex;
+    margin-left: 230px;
+}
+.katalog__sort-li {
+    border: 1px solid #E16A00;
+    color: #000;
+    padding: 5px;
+    margin-right: 20px;
+}
+.katalog__main {
+    display: flex;
+    margin-top: 30px;
+}
+.katalog__genres {
+    margin-right: 30px;
+}
+.katalog__container {
+    display: flex;
+    flex-wrap: wrap;
+}
